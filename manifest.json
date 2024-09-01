@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Open External Links in New Tab",
+  "version": "1.0",
+  "description": "A simple extension which when installed apens links in a new tab if the domain is different from the current page's domain.",
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
