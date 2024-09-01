@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Open External Links in New Tab",
   "version": "1.0",
-  "description": "A simple extension which when installed apens links in a new tab if the domain is different from the current page's domain.",
+  "description": "A simple extension which when installed apens links in a new tab if the domain is different from the current page's domain for chrome and chrome based browsers",
   "permissions": ["tabs"],
   "content_scripts": [
     {
